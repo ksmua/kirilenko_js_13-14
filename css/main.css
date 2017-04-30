@@ -1,0 +1,75 @@
+.wrapper {
+	width: 800px;
+	font-family: tahoma, arial;
+	font-size: 1.1em;
+	margin: 0 auto;
+}
+.test-header {
+	text-align: center;
+}
+.test-body {
+	margin-left: 98px;
+}
+.ul-elem {
+	list-style: none;
+	line-height: 1.2em;
+	padding: 0;
+}
+.ul-li-elem {
+	font-size: .85em;
+}
+.test-elem {
+	line-height: 1.6em;
+	margin: 0;
+}
+.check-button {
+	display: block;
+	margin: 0 auto;
+	width: 324px;
+	height: 50px;
+	background-color: #CDE2F5;
+	border: 2px solid black;
+	border-radius: 2px;
+	text-align: center;
+	font-size: 1.1em;
+}
+.hide {
+    display: none;
+}
+.modale {
+    position: fixed;
+    background: rgba(0, 0, 0, 0.5);
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+.modale-wrapper {
+	display: block;
+	position: fixed;
+    height: 160px;
+    width: 400px;
+    top: 50%;
+    left: 50%;
+    margin-left: -200px;
+	margin-top: -80px;
+	background: yellow;
+}
+.modale-content,
+.modale-body,
+.modale-footer {
+	padding: 5px;
+}
+.modale-header,
+.modale-body {
+	text-align: center;
+}
+.modale-body {
+	height: 35px;
+}
+.close-button {
+	display: block;
+    margin: 0 auto;
+    width: 100px !important;
+	height: 20px;
+}

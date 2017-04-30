@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>homework_13-14</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<script type="text/javascript" src="js/jquery-3.2.0.min.js"></script>
+	<script src="js/tmpl.js"></script>
+	<script src="js/13-14.js"></script>
+</head>
+<body>
+	<div class="test-body">
+		<div class="wrapper">
+			<p class="test-header">Тест</p>
+			<form id="form">
+				
+				<script type="text/test" id='template'>
+					<div class="test-elem">
+						<ul class="ul-elem" id="q<%= questionNum %>">Вопрос #<%= questionNum %>: <%= question %>
+							<li class="ul-li-elem">
+								<label><input type="checkbox" id="checkbox-1"><%= ansver1 %> </label>
+							</li>
+							<li class="ul-li-elem">
+								<label><input type="checkbox" id="checkbox-2"><%= ansver2 %> </label>
+							</li>
+							<li class="ul-li-elem">
+								<label><input type="checkbox" id="checkbox-3"><%= ansver3 %> </label>
+							</li>
+						</ul>
+					</div>
+				</script>
+				
+				<button class="check-button" value="checkbutton" id="check-button">Проверить мои результаты</button>
+			</form>
+		</div>
+	</div>
+
+	<div class="modale hide">
+		<div class="modale-wrapper">
+			<div class="modale-content">
+				<div class="modale-header">
+					<h4 class="modale-title">Ваші результати.</h4>
+				</div>
+			</div>
+			<div class="modale-body">
+
+			</div>
+			
+			<div class="modale-footer">
+				<button class="close-button">Close</button>
+			</div>
+		</div>
+	</div>
+
+</body>
+</html>
